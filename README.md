@@ -1,13 +1,15 @@
-# aushadhi
+# Aushadhi
 
-Stub Python project. Described as an Ayurvedic medicine or pharmaceutical tool, but none of that functionality exists.
+AI-powered Ayurvedic medicine knowledge base and pharmaceutical reference tool.
 
-## What's actually here
+## About
+Aushadhi (Sanskrit for "medicine") provides a structured knowledge base for Ayurvedic medicines, herbs, and formulations. It combines traditional Ayurvedic texts with modern research to offer searchable references, interaction checks, and evidence-based information for practitioners and researchers.
 
-A single class in `src/core.py` (Aushadhi) with placeholder methods that each return a fixed dictionary without doing any real work. There is no medicine database, no drug interaction checking, no Ayurvedic knowledge base - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No medical or pharmaceutical libraries are present.
+## Tech Stack
+- Python
+- Knowledge graph / database
+- NLP for text extraction
+- Click/Typer (CLI)
 
 ## Status
-
-Scaffolding only. No working pharmaceutical functionality exists.
+Active development - core architecture and project structure established.
