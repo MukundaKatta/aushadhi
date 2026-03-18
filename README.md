@@ -1,43 +1,13 @@
 # aushadhi
 
-**Aushadhi — AI Drug Interaction Predictor. LLM-augmented multi-drug interaction prediction for polypharmacy safety.**
+Stub Python project. Described as an Ayurvedic medicine or pharmaceutical tool, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single class in `src/core.py` (Aushadhi) with placeholder methods that each return a fixed dictionary without doing any real work. There is no medicine database, no drug interaction checking, no Ayurvedic knowledge base - just stubs.
 
-## Quick Start
-```python
-from src.core import Aushadhi
- instance = Aushadhi()
-r = instance.track(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). No medical or pharmaceutical libraries are present.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `track()` | Track |
-| `predict()` | Predict |
-| `forecast()` | Forecast |
-| `alert()` | Alert |
-| `get_history()` | Get history |
-| `visualize()` | Visualize |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
-## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+Scaffolding only. No working pharmaceutical functionality exists.
